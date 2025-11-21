@@ -1,5 +1,5 @@
 # 🧮 DA5401 – Kaggle Metric Learning Challenge  
-### *Kaggle_Assignment.ipynb – README*
+### *DA25S006 Aravindhan Mohanraj*
 
 ## 📘 Overview
 This project tackles the **DA5401 Kaggle Challenge**, where the task is to predict a **fitness score (0–10)** between:
@@ -70,30 +70,11 @@ The dataset includes multiple languages: Tamil, Hindi, Bengali, Assamese, Bodo, 
 - Recomputes MPNet embeddings
 - Concatenates embeddings with metric vectors
 - Performs **forward pass** to generate predicted scores
-- Outputs:
+- Output:
 
 ```
 submission_mpnet_5Folds.csv
 ```
-
-- Additionally produces a **rounded** submission file:
-
-```
-submission_mpnet_5Folds_rounded.csv
-```
-
----
-
-### **5. GPU Check**
-The notebook runs:
-
-```bash
-!nvidia-smi
-```
-
-to confirm availability of CUDA GPUs during training.
-
----
 
 ## 📈 Final Outputs
 
@@ -102,10 +83,7 @@ The notebook generates two submission files:
 1. **`submission_mpnet_5Folds.csv`**  
    Raw model predictions (float scores)
 
-2. **`submission_mpnet_5Folds_rounded.csv`**  
-   Predictions rounded to nearest integer
-
-Both files match the Kaggle competition format.
+File matches the Kaggle competition format.
 
 ---
 
