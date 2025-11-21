@@ -23,7 +23,7 @@ The notebook implements a **transformer-based regression model** using MPNet to 
 | `test_data.json` | Test set without scores |
 | `sample_submission.csv` | Kaggle submission format |
 
-The dataset includes multiple languages: Tamil, Hindi, Bengali, Assamese, Bodo, Sindhi, English.
+The dataset includes multiple languages: Tamil, Hindi, Bengali, Assamese, Bodo, Sindhi, English, etc,.
 
 ---
 
